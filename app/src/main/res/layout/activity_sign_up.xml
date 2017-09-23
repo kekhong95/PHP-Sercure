@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kekho.myapplication.activitys.LoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/color_header_login"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/header" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/middle"
+        android:layout_width="match_parent"
+        android:layout_height="850dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/header"
+        android:gravity="center"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="164dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Đăng Ký"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="255dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/header"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@color/color_edt_button"
+                android:ems="10"
+                android:inputType="textEmailAddress">
+
+                <EditText
+                    android:id="@+id/edt_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dip"
+                    android:background="@color/color_edt_button"
+                    android:ems="10"
+                    android:fontFamily="sans-serif"
+                    android:hint="Tài khoản"
+                    android:inputType="textEmailAddress"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="255dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/header"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@color/color_edt_button"
+                android:ems="10"
+                android:inputType="textEmailAddress">
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dip"
+                    android:background="@color/color_edt_button"
+                    android:ems="10"
+                    android:fontFamily="sans-serif"
+                    android:hint="Mật khẩu"
+                    android:inputType="textEmailAddress"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="255dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/header"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@color/color_edt_button"
+                android:ems="10"
+                android:inputType="textEmailAddress">
+
+                <EditText
+                    android:id="@+id/edt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dip"
+                    android:background="@color/color_edt_button"
+                    android:ems="10"
+                    android:fontFamily="sans-serif"
+                    android:hint="Họ tên"
+                    android:inputType="textEmailAddress"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="255dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/header"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@color/color_edt_button"
+                android:ems="10"
+                android:inputType="textEmailAddress">
+
+                <EditText
+                    android:id="@+id/edt_class"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dip"
+                    android:background="@color/color_edt_button"
+                    android:ems="10"
+                    android:fontFamily="sans-serif"
+                    android:hint="Lớp"
+                    android:inputType="textEmailAddress"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="255dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/header"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@color/color_edt_button"
+                android:ems="10"
+                android:inputType="textEmailAddress">
+
+                <EditText
+                    android:id="@+id/edt_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dip"
+                    android:background="@color/color_edt_button"
+                    android:ems="10"
+                    android:fontFamily="sans-serif"
+                    android:hint="Giới tính"
+                    android:inputType="textEmailAddress"
+                    android:prompt="@string/app_select_gender"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/editText2"
+                android:layout_width="255dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/header"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@color/color_edt_button"
+                android:ems="10"
+                android:inputType="textEmailAddress">
+
+                <EditText
+                    android:id="@+id/edt_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dip"
+                    android:background="@color/color_edt_button"
+                    android:ems="10"
+                    android:fontFamily="sans-serif"
+                    android:hint="Điện thoại"
+                    android:inputType="textEmailAddress"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bnt_submit"
+                android:layout_width="255dp"
+                android:layout_height="45dp"
+                android:layout_alignLeft="@+id/editText2"
+                android:layout_alignStart="@+id/editText2"
+                android:layout_below="@+id/editText2"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textEmailAddress">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bnt_Login"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="Submit"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

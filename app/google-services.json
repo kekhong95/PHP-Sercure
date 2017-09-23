@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "828666082773",
+    "project_id": "vaulted-tower-180807"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828666082773:android:218f69ea437a28b1",
+        "android_client_info": {
+          "package_name": "com.example.kekho.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828666082773-jtc8d06j16qovq8e7b9lhnfn22cfri0g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kekho.myapplication",
+            "certificate_hash": "0d8b78231e2eac2a30825f5c7c100f937273f674"
+          }
+        },
+        {
+          "client_id": "828666082773-34erukffrgti741pkquql64pbri4m5rt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa2mI2l86Q2UiIx3yFzyzuE4kY5A0EeBo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

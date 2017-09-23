@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#43aa8b</color>
+    <color name="colorPrimaryDark">#43aa8b</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_header_login">#43aa8b</color>
+    <color name="color_edt_button">#f0f0f0</color>
+    <color name="color_border">#F7F7F7</color>
+    <color name="navi_backgroud">#0f1621</color>
+    <color name="add">#48dad0</color>
+    <color name="history">#ff2172</color>
+    <color name="setting">#00c079</color>
+</resources>

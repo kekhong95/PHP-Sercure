@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_server_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv+inspiNmz/VlDQpwI1Y5hwWpzrF3whtXiuQmXFbc2jW2nVYJJ1siMt7s3EX7ZYZho64R3s03Gl69fk6RPJG+NWk6PjtOBCPJEeKtKgHbupraACue1jFl4ihDz/v+qLsXNTgiO44y9I831xusK3+pctT5zbFSOmF+jD+z6SXuV10jST3vR+b3bXhwc3VAW9hBoqvMgKlEZGSPUmsnXcjhFSDEULh3k+4dIWmWdOKiE82Gen9oC16+i0WICS5J8LbSW8G8Ij1yqB8bz2eojpVGunxBNxK+9a6a7pKeexpwL7SRCEdw+dYAXLj3cfniM4ANo+ZzEaiYlzJ4HNpIcyeeQIDAQAB</string>
+    <string name="app_get_public_key">http://192.168.152.104/BTL/all/view/public/publickey.php</string>
+    <string name="app_post_public_login">http://192.168.2.9:8080/login</string>
+    <string name="app_post_public_login_app">http://192.168.2.9:8080/login_app</string>
+    <string name="app_post_public_sign_up">http://192.168.152.104/BTL/all/view/public/login.php/</string>
+    <string name="app_alret_network_title">Cảnh báo !!!</string>
+    <string name="app_alret_network_body">Kết nối của bạn không an toàn vui lòng kiểm tra để bảo vệ thông tin.</string>
+    <string name="app_select_gender">Giới tính</string>
+    <string-array name="app_gender">
+        <item>Nam</item>
+        <item>Nữ</item>
+    </string-array>
+    <string name="facebook_app_id">358317194550544</string>
+    <string name="fb_login_protocol_scheme">fb358317194550544</string>
+</resources>
